@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Cucumber Parallel Execution Suite">
+    <test name="Login Tests">
+        <classes>
+            <class name="cucumber_s2_demo_testscripts.TestRunnerForLoginPage">
+            </class>
+        </classes>
+    </test>
+    <test name="Add fiction book to cart">
+        <classes>
+            <class name="cucumber_s2_demo_testscripts.TestRunnerClassForSerchItemPage">
+            </class>
+        </classes>
+    </test>
+</suite>
